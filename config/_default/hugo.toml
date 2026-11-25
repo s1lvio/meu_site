@@ -4,7 +4,11 @@
 
 theme = "blowfish"
 baseURL = "https://s1lvio.github.io/meu_site/"
-defaultContentLanguage = "en"
+defaultContentLanguage = "pt-br"
+disablelanguages = ["en"] # o comando ao lado desabilitou todas as lingagens nao so a en
+
+[languages.en]
+disable = true
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 

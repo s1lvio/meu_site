@@ -1,0 +1,12 @@
+# Token / segredos
+PAT_git_acssess
+
+# Backup local
+bkp/
+
+# Pasta de build do Hugo (gerada pela Action, não deve ir pro repo)
+public/
+resources/
+
+# Lixo de sistema
+.DS_Store
